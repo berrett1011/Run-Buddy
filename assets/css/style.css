@@ -232,6 +232,10 @@ section {
   justify-content: space-between;
 }
 
+.step:last-child {
+  border-bottom: none;
+}
+
 .step h3 {
   color: #024e76;
   font-size: 46px;
@@ -356,14 +360,13 @@ section {
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #020303;
+  color: #024e76;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 10px;
-  background:rgba(rgb(2,78,118),0.8);
+  background-color: rgba(255,255,255, 0.8);
 }
-
 .contact-form input:focus, .contact-form textarea:focus {
   background-color: rgba(255,255,255, 1);
   outline: none;
